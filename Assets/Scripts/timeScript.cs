@@ -1,17 +1,14 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class timeScript : MonoBehaviour
 {
-    public Text counterText;
+    public TextMeshProUGUI counterText;
     public bool timeCounter = true;
     public float seconds, minutes;
 
-    // Use this for initialization
-    private void Start()
-    {
-        counterText = GetComponent<Text>() as Text;
-    }
+  
 
     // Update is called once per frame
     private void Update()
