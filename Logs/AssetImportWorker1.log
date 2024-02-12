@@ -15,7 +15,7 @@ C:/Users/PC/OneDrive/Escritorio/MemoryCardGame
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-4273
+12906
 Successfully changed project path to: C:/Users/PC/OneDrive/Escritorio/MemoryCardGame
 C:/Users/PC/OneDrive/Escritorio/MemoryCardGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/PC/OneDrive/Escritorio/MemoryCardGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23156] Host "[IP] 192.168.1.66 [Port] 0 [Flags] 2 [Guid] 2935867835 [EditorId] 2935867835 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D630COU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13824] Host "[IP] 192.168.1.66 [Port] 0 [Flags] 2 [Guid] 3773105395 [EditorId] 3773105395 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D630COU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23156] Host "[IP] 192.168.1.66 [Port] 0 [Flags] 2 [Guid] 2935867835 [EditorId] 2935867835 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D630COU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13824] Host "[IP] 192.168.1.66 [Port] 0 [Flags] 2 [Guid] 3773105395 [EditorId] 3773105395 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D630COU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 42.02 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 31.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.34f1 (25266724e7bd)
 [Subsystems] Discovering subsystems at path C:/2021.3.34f1/Editor/Data/Resources/UnitySubsystems
@@ -68,90 +68,90 @@ Initialize mono
 Mono path[0] = 'C:/2021.3.34f1/Editor/Data/Managed'
 Mono path[1] = 'C:/2021.3.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/2021.3.34f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/2021.3.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008561 seconds.
+Registered in 0.007014 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 25.99 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 36.02 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.899 seconds
+- Completed reload, in  0.947 seconds
 Domain Reload Profiling:
-	ReloadAssembly (899ms)
-		BeginReloadAssembly (188ms)
+	ReloadAssembly (947ms)
+		BeginReloadAssembly (176ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (545ms)
-			LoadAssemblies (179ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (629ms)
+			LoadAssemblies (169ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (157ms)
+			SetupTypeCache (201ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (287ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (304ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (26ms)
+				RefreshPlugins (36ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (189ms)
-				ProcessInitializeOnLoadMethodAttributes (60ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004838 seconds.
+Registered in 0.007221 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.878 seconds
+- Completed reload, in  1.643 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1880ms)
-		BeginReloadAssembly (231ms)
+	ReloadAssembly (1645ms)
+		BeginReloadAssembly (193ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (1461ms)
-			LoadAssemblies (153ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1316ms)
+			LoadAssemblies (138ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (245ms)
+			SetupTypeCache (254ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (990ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (850ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (836ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (722ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1359 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (46.5 KB). Loaded Objects now: 1825.
-Memory consumption went from 63.1 MB to 63.0 MB.
-Total: 3.916800 ms (FindLiveObjects: 0.239700 ms CreateObjectMapping: 0.061300 ms MarkObjects: 3.479900 ms  DeleteObjects: 0.134300 ms)
+Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (46.8 KB). Loaded Objects now: 1838.
+Memory consumption went from 65.4 MB to 65.4 MB.
+Total: 4.507600 ms (FindLiveObjects: 0.298000 ms CreateObjectMapping: 0.057000 ms MarkObjects: 3.991200 ms  DeleteObjects: 0.159100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,235 +167,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 6380.724496 seconds.
-  path: Assets/Japanese 3017.ttf
-  artifactKey: Guid(916e80fef11a0cf448fc0655c29418d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 15076.436835 seconds.
+  path: Assets/Textures/card1.jpg
+  artifactKey: Guid(fdf9a7396009a46488f292e11e3dd43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Japanese 3017.ttf using Guid(916e80fef11a0cf448fc0655c29418d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a54d804e45af0303c398e566c5a3606') in 0.461502 seconds 
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/lennart-butz-idea5anim4.gif
-  artifactKey: Guid(cf623a49f4ffd724390b462b8f6fca2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/lennart-butz-idea5anim4.gif using Guid(cf623a49f4ffd724390b462b8f6fca2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05de970b361989f6cf85c1e3dc84b76f') in 0.133572 seconds 
+Start importing Assets/Textures/card1.jpg using Guid(fdf9a7396009a46488f292e11e3dd43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55670314ddb5f0e724730d0d72331ece') in 0.238513 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 57.414946 seconds.
-  path: Assets/CartasJapo/500.png
-  artifactKey: Guid(b27bc3b89205fd245b8c9afc4ceeb704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000076 seconds.
+  path: Assets/Textures/cardDown.psd
+  artifactKey: Guid(457c08b3b6b5bf54f9fab3b3537491ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CartasJapo/500.png using Guid(b27bc3b89205fd245b8c9afc4ceeb704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50be06d93909d916d5e10e81115da060') in 0.107435 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/CartasJapo/Tsuchi.png
-  artifactKey: Guid(9cb3c37e08684a0468bd2f80a550afe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CartasJapo/Tsuchi.png using Guid(9cb3c37e08684a0468bd2f80a550afe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6214f983ea5825965a0a375c1606d5') in 0.085709 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/CartasJapo/nI.png
-  artifactKey: Guid(eed37973fec52fb44bfc3ab21fa876d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CartasJapo/nI.png using Guid(eed37973fec52fb44bfc3ab21fa876d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19860dd5d630e0dbd7ebdc0a3d4a90b') in 0.089587 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/CartasJapo/Inu.png
-  artifactKey: Guid(474b2fa5cfbb4ce45afd7b0e19371f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CartasJapo/Inu.png using Guid(474b2fa5cfbb4ce45afd7b0e19371f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a3cdc21d1eea0534a2c0ea0a56caf3') in 0.084548 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/CartasJapo/Jou.png
-  artifactKey: Guid(46c6e10501e4c014387f609cbc62cbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CartasJapo/Jou.png using Guid(46c6e10501e4c014387f609cbc62cbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820ff0d44634afdcc007bc4fdf8123f3') in 0.069380 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/CartasJapo/Gaku.png
-  artifactKey: Guid(57c4f4f248797b74384c8a320566a547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CartasJapo/Gaku.png using Guid(57c4f4f248797b74384c8a320566a547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc1126b04b5a6dec1dc016d97a6a023') in 0.069790 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/CartasJapo/Te.png
-  artifactKey: Guid(ada4b91da698c4a4eb018794312d934f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CartasJapo/Te.png using Guid(ada4b91da698c4a4eb018794312d934f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e1864f14293cbce833f72cbd589c58') in 0.072101 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/CartasJapo/Me.png
-  artifactKey: Guid(ab3e71283c0fae34487222a6a2a5f5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CartasJapo/Me.png using Guid(ab3e71283c0fae34487222a6a2a5f5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24fe10ed37f0931cc5172e0d04c984e') in 0.075699 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/CartasJapo/Kon.png
-  artifactKey: Guid(fef593d388699eb438fa178f0cbc1e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CartasJapo/Kon.png using Guid(fef593d388699eb438fa178f0cbc1e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367e25c2462f7255fcfee43c5c39de00') in 0.101921 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/CartasJapo/Gakkō.png
-  artifactKey: Guid(3c847effaf1b81d44963d0847103f33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CartasJapo/Gakkō.png using Guid(3c847effaf1b81d44963d0847103f33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57de7d07460231dbf22bf3abbf8ee396') in 0.094428 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/CartasJapo/Hachi.png
-  artifactKey: Guid(73fb8f243095a014bb73ae286e2cdc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CartasJapo/Hachi.png using Guid(73fb8f243095a014bb73ae286e2cdc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eceda3f60ebfe30104397d4588b9bb4f') in 0.073102 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/CartasJapo/Aida.png
-  artifactKey: Guid(107bcb015bfe5da4ea9cf1ae51e16004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CartasJapo/Aida.png using Guid(107bcb015bfe5da4ea9cf1ae51e16004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c1e3eb4fca8d7944a92bab8ab8566e') in 0.067056 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/CartasJapo/Saki.png
-  artifactKey: Guid(1b6ca5957ef9b5a4e9c653e9a0578497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CartasJapo/Saki.png using Guid(1b6ca5957ef9b5a4e9c653e9a0578497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c49ee8fa7d9c0069dbca6fef39dd86') in 0.074363 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/CartasJapo/Juu.png
-  artifactKey: Guid(bab600aec76716543b44c69eb087f9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CartasJapo/Juu.png using Guid(bab600aec76716543b44c69eb087f9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f694467606d33b4f1d2719d6c0cb27') in 0.072076 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/CartasJapo/Sei.png
-  artifactKey: Guid(f40caa036ae53cc4ab357b61fa43d24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CartasJapo/Sei.png using Guid(f40caa036ae53cc4ab357b61fa43d24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78021dbc4717b36850eeffb76418f3d5') in 0.065144 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/CartasJapo/Soto.png
-  artifactKey: Guid(a7d2815e749bb6a4681aa212b97c9a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CartasJapo/Soto.png using Guid(a7d2815e749bb6a4681aa212b97c9a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4baf75b6aba0774ec8411776e95a803') in 0.065895 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/CartasJapo/Kyu.png
-  artifactKey: Guid(1d29f3577365f114cae3feb893e8e5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CartasJapo/Kyu.png using Guid(1d29f3577365f114cae3feb893e8e5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95665f0fad55d325cd0bf04a280dc1af') in 0.077459 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/CartasJapo/Han.png
-  artifactKey: Guid(1143504282ca283409d6c20ec789a4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CartasJapo/Han.png using Guid(1143504282ca283409d6c20ec789a4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b85915fbca72d352ce6aae8872607c') in 0.073087 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/CartasJapo/Nen.png
-  artifactKey: Guid(030765cca29ddda48b64308ea43d6f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CartasJapo/Nen.png using Guid(030765cca29ddda48b64308ea43d6f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61125f96a90c7834fa2081c9de99bcf') in 0.070573 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/CartasJapo/GoUma.png
-  artifactKey: Guid(10dd856d5b3e8ce4da7660fe7f8b3f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CartasJapo/GoUma.png using Guid(10dd856d5b3e8ce4da7660fe7f8b3f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb056a94e345519c12bf2f1fa03f555') in 0.086777 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/CartasJapo/10000 Man.png
-  artifactKey: Guid(f9d12c5c2702966419b231b02ff13009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CartasJapo/10000 Man.png using Guid(f9d12c5c2702966419b231b02ff13009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba23094cd6b68db3b52045fddb9f33a') in 0.076141 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/CartasJapo/Yon.png
-  artifactKey: Guid(f53166f23b7e378438ce67a6efdf8329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CartasJapo/Yon.png using Guid(f53166f23b7e378438ce67a6efdf8329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d1a9c6146003238a81d74264320f85') in 0.086593 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/CartasJapo/Nana.png
-  artifactKey: Guid(c430edf3f8e0d1c4892ba73cf31a6b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CartasJapo/Nana.png using Guid(c430edf3f8e0d1c4892ba73cf31a6b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35c60b20cffdcb7b74921bd883be557') in 0.071714 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/CartasJapo/Ashi.png
-  artifactKey: Guid(be4d71a7d0f94844798dc3974efc0591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CartasJapo/Ashi.png using Guid(be4d71a7d0f94844798dc3974efc0591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f30b8d906617085624043de19571b96') in 0.060971 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/CartasJapo/Kuchi.png
-  artifactKey: Guid(3fa94126d8ae2e24fb636b49aa7242f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CartasJapo/Kuchi.png using Guid(3fa94126d8ae2e24fb636b49aa7242f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b978aa084acb1174f26dc322a6f1f2f') in 0.057584 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/CartasJapo/Ichi.png
-  artifactKey: Guid(ae09dd9bd8662c54498bec49dcc6bf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CartasJapo/Ichi.png using Guid(ae09dd9bd8662c54498bec49dcc6bf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0bddcbaca720fff861946229ccd5fb') in 0.065809 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/CartasJapo/Ki.png
-  artifactKey: Guid(16d5f4634333b2845b23abe3d45df693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CartasJapo/Ki.png using Guid(16d5f4634333b2845b23abe3d45df693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74294788bf7a43815ff0590d0d58df43') in 0.060244 seconds 
+Start importing Assets/Textures/cardDown.psd using Guid(457c08b3b6b5bf54f9fab3b3537491ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e79a1e382582d817f0497d6775481a') in 0.057281 seconds 
 Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

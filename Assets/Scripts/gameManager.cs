@@ -10,7 +10,7 @@ public class gameManager : MonoBehaviour
     public GameObject gameTime;
 
     private bool _init = false;
-    private int _matches = 48;
+    public int _matches = 48;
 
     // Update is called once per frame
     private void Update()
@@ -26,7 +26,7 @@ public class gameManager : MonoBehaviour
     {
         for (int id = 0; id < 2; id++)
         {
-            for (int i = 1; i < 49; i++)
+            for (int i = 1; i < 40; i++)
             {
                 bool test = false;
                 int choice = 0;
